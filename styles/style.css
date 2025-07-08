@@ -2,12 +2,14 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px;
+  padding-top: 94px;
+  padding-right: 56px;
+  padding-bottom: 95px;
+  padding-left: 44px;
 }
 
-/*.header_link-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.header_link-list {
+  display: flex;
   gap: 20px;
   list-style: circle;
 }
@@ -16,9 +18,8 @@
   display: block;
   width: 130px;
   height: 104px;
-  margin: auto;
 }
 
 .header_logo-image {
   width: 100%;
-}*/
+}
