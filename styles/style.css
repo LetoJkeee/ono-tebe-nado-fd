@@ -51,7 +51,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
   padding-right: 4px;
 }
 
@@ -60,5 +60,24 @@
 }
 
 .cover {
-  background-color: brown;
+  position: relative;
+  background: url(/images/cover.jpg);
+  background-size: cover;
+  padding: 100px 200px;
+  min-height: 758px;
+  background-position: center;
+}
+
+.cover {
+
+}
+
+.cover_title {
+  text-transform: uppercase;
+
+}
+
+.footer {
+  display: grid;
+
 }
