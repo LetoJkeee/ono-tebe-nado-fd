@@ -5,10 +5,6 @@
   padding: 92px 50px 96px;
 }
 
-/*.header_menu {
-
-}*/
-
 .header_link-list {
   display: flex;
   font-size: 18px;
@@ -16,16 +12,16 @@
   list-style: circle;
 }
 
-/*.header__links-list-item {
-
-}*/
-
 .header__link {
   text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header_logo {
@@ -74,27 +70,62 @@
  } 
 
  .cover_title {
+  height: 656px;
   text-transform: uppercase;
   font-weight: 700;
-  font-style: bold;
   font-size: 100px;
-  color: #FFFFFF;
-  letter-spacing: 30px;
-  /*line-height: 114.9999%*/
+  color: #FFF;
+  letter-spacing:30px;
+  padding-top: 165px;
+  padding-right: -30px;
+  padding-left: 50px;
+  padding-bottom: 115px;
  }
 
  .aligned-text {
-  
+  display: block; 
+ }
+
+ .aligned-text_left {
+  text-align: left;
+ }
+
+ .aligned-text_center {
+  text-align: center;
+  padding-top: 17px;
+  padding-right: 20px;
+ }
+
+ .aligned-text_right {
+  text-align: right;
+  padding-top: 19px;
+  padding-right: 19px;
  }
 
 .cover_description {
-
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 22px;
+  word-spacing: 18.4px;
+  color: #FFF;
 }
 
 .cover__description-text {
-  color: #FFFFFF
+  padding-top: 13px;
+  padding-left: 1px;
 }
 
-.get_button {
-
-}
+.bet_button {
+  color: #FFF;
+  background-color: transparent;
+  width: 256px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #fff;
+} 
